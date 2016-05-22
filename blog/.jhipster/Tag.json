@@ -1,0 +1,23 @@
+{
+    "relationships": [
+        {
+            "relationshipName": "entry",
+            "otherEntityName": "entry",
+            "relationshipType": "many-to-many",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "tag"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        }
+    ],
+    "changelogDate": "20160519190523",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "tag",
+    "pagination": "infinite-scroll"
+}
